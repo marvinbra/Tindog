@@ -1,0 +1,84 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    padding: 0;
+    max-width: 550px;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 1em;
+}
+
+.icon {
+    width: 32px;
+    height: 34px;
+}
+
+.logo {
+    width: 84px;
+    height: 42px;
+}
+
+#dogs {
+    height: 750px;
+    position: relative;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    padding: 1.25em 0;
+}
+
+button {
+    border-radius: 50%;
+    height: 92px;
+    width: 92px; 
+    box-shadow: 15px 5px 25px #E9E9EA;
+    background: white;
+    border: none;
+}
+
+.dogImg {
+    display: flex;
+    margin: auto;
+    width: 98%;
+    border-radius: 5%;
+    height: 750px;
+}
+
+#dogInfo {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding-left: 1.5em;
+}
+
+h4 {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.badges {
+    position: absolute;
+    width: 220px;
+    height: 90px;
+    top: 10%;
+    left: 7%;
+    transform: rotate(-25deg);
+}
