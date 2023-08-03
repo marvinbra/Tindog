@@ -71,7 +71,7 @@ h4 {
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .badges {
@@ -81,4 +81,14 @@ p {
     top: 10%;
     left: 7%;
     transform: rotate(-25deg);
+}
+
+.end-msg {
+    text-align: center;
+    margin-top: 50%;
+    font-size: 1.5rem;
+}
+
+.end-txt {
+    padding-top: 1em;
 }
